@@ -5,7 +5,7 @@ import gym
 env= gym.make('CartPole-v1')
 
 agent=Agent(4,2)
-
+agent.load()
 avg_steps = []
 evolutions = 1000
 punishment = -1 #alter punishment to get better results
